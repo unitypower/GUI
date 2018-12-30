@@ -11,14 +11,16 @@
   var myChart = new Chart(ctx, {
     type: 'line',
     data: {
+
       labels: [
-        'Sunday',
-        'Monday',
-        'Tuesday',
-        'Wednesday',
-        'Thursday',
-        'Friday',
-        'Saturday'
+        '00:00',
+        '03:00',
+        'O6:00',
+        '09:00',
+        '12:00',
+        '15:00',
+        '18:00',
+        '21:00',
       ],
       datasets: [{
         data: [
@@ -39,6 +41,7 @@
     },
     options: {
       scales: {
+        
         yAxes: [{
           ticks: {
             beginAtZero: false
